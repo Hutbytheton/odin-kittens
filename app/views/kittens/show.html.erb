@@ -21,4 +21,6 @@
 </p>
 
 <%= link_to 'Edit', edit_kitten_path(@kitten) %> |
-<%= link_to 'Back', kittens_path %>
+<%= link_to "Delete", kittens_path(@kitten), method: :delete, data: {confirm: "Are you sure?"} %> |
+<%= link_to 'Back', kittens_path %> 
+
