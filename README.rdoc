@@ -1,1 +1,0 @@
-this is practice for making a Rails API for theodinproject.com
